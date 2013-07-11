@@ -1,0 +1,21 @@
+/*css reset and element defaults*/
+body { font-family: Helvetica, Arial, sans-serif; font-style: normal; font-variant: normal; background-color: #b6c6d6; color:#333333; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ul { list-style-type:none; padding:0; margin-left:0; }
+ol { list-style-type:decimal; padding:0; margin-left:0; }
+a  { color:#b6c6d6; font-weight: normal; font-size:20px; font-weight: bold; }
+a:hover { color:#eee; text-decoration:none; font-weight: bold; }
+a:visited { color:#eee; }
+img{ border:0px; }
+
+/*menu*/
+#header  { background-color:#333333; }
+.menu > li { float:left; color:#ddd; margin-right:50px; min-width:200px; width:200px; }
+.menu > li > h1 { margin:0px; }
+.menu > li > h2 { margin:0px; }
+.menu > li > h1 > a { text-decoration:none; font-size:32px; margin-top:0px;}
+
+
+/*meat*/
+.content { clear:both; display:block; margin-left:245px; max-width:865px; border:5px solid #333333;}
+.info { background-color: #b6c6d6; border:1px solid #ffffff; padding: 20px; }
